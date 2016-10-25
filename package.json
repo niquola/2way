@@ -1,0 +1,17 @@
+{
+  "name": "2way",
+  "author": "",
+  "license": "MIT",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha test/**/*.spec.js"
+  },
+  "devDependencies": {
+    "mocha": "latest"
+  },
+  "dependencies": {
+
+  }
+}
