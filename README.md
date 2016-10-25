@@ -16,9 +16,10 @@ var mapping = [
 // transform(object, [fromKey, toKey])
 var result = mapper.transform(
  {address_line: 'line', firstName: 'ivan', lastName: 'ivanov'},
- ['client', 'server]
+ ['client', 'server']
 );
-result =>  {
+
+var result =  {
   name: {given: 'ivan', family: 'ivanov'},
   address: [{use: 'home', line: 'line'}]
 }
