@@ -6,7 +6,7 @@
 Javascript 2 way mapping library
 
 
-```
+```js
 var mapping = [
   {server: ['name', 'given'], client: ['firstName']},
   {server: ['name', 'family'], client: ['lastName']},
